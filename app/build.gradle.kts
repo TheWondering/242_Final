@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     kotlin("kapt")
     id("androidx.navigation.safeargs.kotlin")
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -11,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.project"
-        minSdk = 30
+        minSdk = 29
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -67,6 +68,7 @@ dependencies {
     implementation(libs.play.services.analytics.impl)
     implementation(libs.firebase.firestore.ktx)
     implementation("com.github.bumptech.glide:glide:4.14.2")
+    implementation(libs.firebase.firestore)
     kapt("com.github.bumptech.glide:compiler:4.14.2")
 
     debugImplementation("androidx.compose.ui:ui-tooling:1.6.1")

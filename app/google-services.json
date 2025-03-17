@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "989625912160",
+    "firebase_url": "https://project-c4c53-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "project-c4c53",
+    "storage_bucket": "project-c4c53.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989625912160:android:c3a24bd9336e8319af2c05",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV7ABFjSdbkgblbuwD2zQBspozaba74ds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
